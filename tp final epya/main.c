@@ -107,7 +107,7 @@ int main() {
 
     do {
         printf("\n=============================\n");
-        printf("      GESTOR DE TAREAS\n");
+        printf("      GESTOR De TAREAS\n");
         printf("=============================\n");
         printf("1. Ver mis tareas\n");
         printf("2. Buscar una tarea\n");
@@ -149,7 +149,7 @@ int main() {
                             printf("\n[!] No se encontraron tareas en esta categoria.\n");
                         }
                     } else if (sub_opcion != 5) {
-                        printf("\n[Error] Opcion invalida. Por favor, intenta de nuevo.\n");
+                        printf("\n[Error] Opcion invalida. Por favor intenta de nuevo.\n");
                     }
                 } while (sub_opcion != 5);
                 break;
@@ -168,7 +168,7 @@ int main() {
                         encontradas++;
                     }
                 }
-                if (encontradas == 0) printf("\n[!] No se encontraron tareas.\n");
+                if (encontradas == 0) printf("\n[!] No se encontaron tareas.\n");
                 break;
             }
 
@@ -211,7 +211,7 @@ int main() {
 
             case 4: {
                 if (cantidad_tareas == 0) {
-                    printf("\n[!] No hay tareas para editar.\n");
+                    printf("\n[!] No hai tareas para editar.\n");
                     break;
                 }
 
@@ -291,11 +291,11 @@ int main() {
             case 5:
                 guardar_tareas(mis_tareas, cantidad_tareas, "mis_tareas.dat");
                 free(mis_tareas); 
-                printf("\nGuardando cambios... Hasta luego!\n");
+                printf("\nGuardando cambios...\n");
                 break;
 
             default:
-                printf("\n[Error] Opcion invalida. Por favor, intenta de nuevo.\n");
+                printf("\n[Eror] Opcion invalida. Por favor, intenta de nuevo.\n");
                 break;
         }
 
