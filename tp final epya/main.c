@@ -112,8 +112,8 @@ int main() {
         printf("1. Ver mis tareas\n");
         printf("2. Buscar una tarea\n");
         printf("3. Agregar nueva tarea\n");
-        printf("4. Editar una tarea\n"); // NUEVA OPCIÓN
-        printf("5. Guardar y Salir\n"); // Desplazado al 5
+        printf("4. Editar una tarea\n");
+        printf("5. Guardar y Salir\n");
         printf("=============================\n");
         printf("Elige una opcion: ");
         
